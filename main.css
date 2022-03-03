@@ -1,0 +1,19 @@
+
+body{
+    background-color:slateblue;
+    color: white;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.form__div{
+    text-align: center;   
+}
+
+.form__input{
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+}
