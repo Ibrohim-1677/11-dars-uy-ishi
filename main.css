@@ -17,3 +17,9 @@ body{
     border-radius: 50px;
     border: none;
 }
+
+.form__button{
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+}
