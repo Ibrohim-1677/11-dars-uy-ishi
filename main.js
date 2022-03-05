@@ -14,19 +14,19 @@ elForm.addEventListener ("submit" , function (evt) {
     evt.preventDefault();
 
 
-    var inputVal     = elInput.value;
+    var inputVal = elInput.value;
 
     elInput.value = null;
 
-    var textTo= {
+    var adds= {
 
-        id: add.length,
+        id: add.length + 1,
 
         title: inputVal
 
-    };
+    }
 
-    add.push(textTo);
+    add.push(adds);
 
             
     elList.innerHTML = null;
@@ -35,7 +35,7 @@ elForm.addEventListener ("submit" , function (evt) {
 
         var newText = document.createElement("li");
 
-        newText.textContent = item.title;
+        newText.textContent = `${item.id} ${item.title}`;
 
         elList.appendChild(newText);
     }
